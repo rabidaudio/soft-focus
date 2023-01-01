@@ -4,6 +4,10 @@
               addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
   <MAINGROUP id="rPKbnF" name="SoftFocus">
     <GROUP id="{2E040F56-FDFC-7DAA-CE50-BCE1BBBC2E75}" name="Source">
+      <FILE id="jrAN1Z" name="SoftFocusEffect.cpp" compile="1" resource="0"
+            file="Source/SoftFocusEffect.cpp"/>
+      <FILE id="kW60fp" name="SoftFocusEffect.h" compile="0" resource="0"
+            file="Source/SoftFocusEffect.h"/>
       <FILE id="izcUoB" name="PluginProcessor.cpp" compile="1" resource="0"
             file="Source/PluginProcessor.cpp"/>
       <FILE id="qgryeP" name="PluginProcessor.h" compile="0" resource="0"
@@ -12,6 +16,7 @@
             file="Source/PluginEditor.cpp"/>
       <FILE id="OQJJCG" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
     </GROUP>
+    <FILE id="mzSZfD" name="notes.md" compile="0" resource="1" file="notes.md"/>
   </MAINGROUP>
   <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
   <EXPORTFORMATS>

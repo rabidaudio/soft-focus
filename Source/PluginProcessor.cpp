@@ -154,7 +154,7 @@ void SoftFocusAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer, ju
     {
         auto* channelData = buffer.getWritePointer (channel);
 
-        // ..do something to the data...
+        effect.process(channelData, buffer.getNumSamples());
     }
 }
 

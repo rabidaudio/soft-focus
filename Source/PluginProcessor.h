@@ -9,6 +9,7 @@
 #pragma once
 
 #include <JuceHeader.h>
+#include "SoftFocusEffect.h"
 
 //==============================================================================
 /**
@@ -57,6 +58,7 @@ public:
     void setStateInformation (const void* data, int sizeInBytes) override;
 
 private:
+    SoftFocusEffect effect;
     //==============================================================================
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (SoftFocusAudioProcessor)
 };
